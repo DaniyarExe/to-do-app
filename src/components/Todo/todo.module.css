@@ -1,0 +1,21 @@
+.todosWrapper{
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, -48%);
+
+    border: 1px solid black;
+}
+.blockTitle{
+    width: 100%;
+    background-color: silver;
+    pad: 10px 25px;
+    border: 1px solid black;
+}
+.todos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
+    gap: 15px;
+}
